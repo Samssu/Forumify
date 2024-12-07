@@ -17,3 +17,6 @@ Route::get('sign-up', function () {
 Route::get('obrolan', function () {
     return view('pages.obrolan.index');
 });
+Route::get('obrolan/lorem', function () {
+    return view('pages.obrolan.show');
+});

@@ -6,19 +6,13 @@
 </head>
 
 <body>
-   {{-- Navbar --}}
-   @include('partials.navbar')
-   
+    @include('partials.navbar')
+    @include('partials.alert')
     @yield('body')
-
     @include('partials.footer')
-
-    @yield('beefore-script')
-
+    @yield('before-script')
     @include('partials.script')
-    
     @yield('after-script')
-
 </body>
 
 </html>
