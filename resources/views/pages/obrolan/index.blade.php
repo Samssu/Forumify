@@ -30,7 +30,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-lg-10">
-                                <a href="#">
+                                <a href="{{route('obrolan.show')}}">
                                     <h3>How to add dayat Miaw miaw In Laravel?</h3>
                                 </a>
                                 <p>

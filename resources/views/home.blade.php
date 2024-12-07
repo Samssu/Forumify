@@ -8,8 +8,8 @@
             <div class="col-12 col-lg-6">
                 <h1>The laravel <br /> Community Forum</h1>
                 <p class="mb-4">Empowering th Laravel Community Forum, Share andn learn</p>
-                <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
-                <a href="#" class="btn btn-secondary mb-2 mb-lg-0">Join Disccusscion</a>
+                <a href="{{route('auth.sign-up.show')}}" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
+                <a href="{{route('obrolan.index')}}" class="btn btn-secondary mb-2 mb-lg-0">Join Disccusscion</a>
             </div>
             <div class="col-12 col-lg-6 h-315px order-first order-lg-last mb-3 mb-lg-0">
                 <img class="hero-image float-lg-end" src="{{ url('assets/images/foto.jpg') }}" alt="Backgorund">
@@ -157,8 +157,8 @@
         <p class="mb-4">
             want to make a big impact?
             <div class="text-center">
-                <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
-                <a href="#" class="btn btn-secondary mb-2 mb-lg-0">Join Disccusscion</a>
+                <a href="{{route('auth.sign-up.show')}}" class="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
+                <a href="{{route('obrolan.index')}}" class="btn btn-secondary mb-2 mb-lg-0">Join Disccusscion</a>
             </div>
         </p>
     </section>
