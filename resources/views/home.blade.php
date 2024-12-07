@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.app')
 
-<head>
-    @include('partials.head')
-</head>
-
-<body>
-   {{-- Navbar --}}
-   @include('partials.navbar')
+@section('body')
    
     {{-- Hero Section --}}
     <section class="container hero">
@@ -19,7 +12,7 @@
                 <a href="#" class="btn btn-secondary mb-2 mb-lg-0">Join Disccusscion</a>
             </div>
             <div class="col-12 col-lg-6 h-315px order-first order-lg-last mb-3 mb-lg-0">
-                <img class="hero-image float-lg-end" src="{{ url('assets/images/kokomi.png') }}" alt="Backgorund">
+                <img class="hero-image float-lg-end" src="{{ url('assets/images/foto.jpg') }}" alt="Backgorund">
             </div>
         </div>
     </section>
@@ -170,38 +163,4 @@
         </p>
     </section>
 
-    {{-- Footer --}}
-    <footer class="py-80px">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 mb-5 mb-lg-0">
-                    <img src="{{ url('assets/images/foruminty-footer.png') }}" alt="Logo" class="h-32px mb-4">
-                    <p class="text-white">Empowering the laravel community <br /> to connect. share and learn</p>
-                </div>
-                <div class="col-12 col-lg-6 me-auto">
-                    <div class="d-flex flex-column flex-lg-row justify-content-end">
-                        <div class="d-flex flex-column me-140px mb-3 mb-lg-0">
-                            <p class="fw-bold fs-5 text-white text flex-nowrap">
-                                Contact us</p>
-                            <ul class="list-unstyled">
-                                <li class="text-white"><a href="mailto:miaw@gmail.com">miaw@gmail.com</a></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex flex-column">
-                            <p class="fw-bold fs-5 text-white">Links</p>
-                            <ul class="list-unstyled">
-                                <li class="text-white mb-2"><a href="#">Home</a></li>
-                                <li class="text-white mb-2"><a href="#">Discussions</a></li>
-                                <li class="text-white mb-2"><a href="#">About Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-</body>
-
-</html>
+@endsection
