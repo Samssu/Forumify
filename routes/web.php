@@ -21,3 +21,7 @@ Route::get('obrolan', function () {
 Route::get('obrolan/lorem', function () {
     return view('pages.obrolan.show');
 })->name('obrolan.show');
+
+Route::get('obrolan/create', function () {
+    return view('pages.obrolan.form');
+})->name('obrolan.create');
