@@ -12,7 +12,7 @@
                         51,864 Obrolan
                     </div>
                 </div>
-                <a href="#" class="btn btn-primary">Log In to Create Disccusscion</a>
+                <a href="{{route('obrolan.create')}}"class="btn btn-primary">Log In to Create Disccusscion</a>
             </div>
 
             
