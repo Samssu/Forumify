@@ -5,7 +5,7 @@
         <div class="container">
             <div class="mb-4">
                 <div class="mb-3 d-flex align-items-center justify-content-between">
-                    <h2 class="mb-4 mb-0">
+                    <h2 class="mb-4 mt-0">
                         Semua Obrolan
                     </h2>
                     <div>
