@@ -13,3 +13,7 @@ Route::get('login', function () {
 Route::get('sign-up', function () {
     return view('pages.auth.sign-up');
 });
+
+Route::get('obrolan', function () {
+    return view('pages.obrolan.index');
+});
