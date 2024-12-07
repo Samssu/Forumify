@@ -25,3 +25,7 @@ Route::get('obrolan/lorem', function () {
 Route::get('obrolan/create', function () {
     return view('pages.obrolan.form');
 })->name('obrolan.create');
+
+Route::get('answers/1', function () {
+    return view('pages.answers.form');
+})->name('answers.edit');
